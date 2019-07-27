@@ -45,24 +45,54 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Buffs\Blind\Blind.cs" />
-    <Compile Include="Buffs\Disarm\Disarm.cs" />
-    <Compile Include="Buffs\HealCheck\HealCheck.cs" />
-    <Compile Include="Buffs\HealSpeed\HealSpeed.cs" />
-    <Compile Include="Buffs\Highlander\Highlander.cs" />
-    <Compile Include="Buffs\Invulnerable\Invulnerable.cs" />
-    <Compile Include="Buffs\LuluR\LuluR.cs" />
-    <Compile Include="Buffs\LuluWBuff\LuluWBuff.cs" />
-    <Compile Include="Buffs\LuluWDebuff\LuluWDebuff.cs" />
-    <Compile Include="Buffs\OverdriveSlow\OverdriveSlow.cs" />
-    <Compile Include="Buffs\Overdrive\Overdrive.cs" />
-    <Compile Include="Buffs\Quickdraw\Quickdraw.cs" />
-    <Compile Include="Buffs\Recall\Recall.cs" />
-    <Compile Include="Buffs\Silence\Silence.cs" />
-    <Compile Include="Buffs\SummonerExhaustDebuff\SummonerExhaustDebuff.cs" />
-    <Compile Include="Buffs\SummonerHasteBuff\SummonerHasteBuff.cs" />
-    <Compile Include="Buffs\SummonerReviveSpeedBoost\SummonerReviveSpeedBoost.cs" />
-    <Compile Include="Buffs\YoumuusGhostblade\YoumuusGhostblade.cs" />
+    <Compile Include="Buffs\Champions\Annie\MoltenShield\MoltenShield.cs" />
+    <Compile Include="Buffs\Champions\Blitzcrank\Overdrive\Overdrive.cs" />
+    <Compile Include="Buffs\Champions\Blitzcrank\Overdrive\OverdriveSlow.cs" />
+    <Compile Include="Buffs\Champions\Ezreal\EzrealWBuff\EzrealWBuff.cs" />
+    <Compile Include="Buffs\Champions\Gangplank\CannonBarrage\GangRSlow.cs" />
+    <Compile Include="Buffs\Champions\Gangplank\RaiseMorale\GangEAct-self.cs" />
+    <Compile Include="Buffs\Champions\Gangplank\RaiseMorale\GangEAct.cs" />
+    <Compile Include="Buffs\Champions\Gangplank\RaiseMorale\GangEPas.cs" />
+    <Compile Include="Buffs\Champions\Gangplank\RemoveScurvy\GangW.cs" />
+    <Compile Include="Buffs\Champions\Graves\GravesMove\Quickdraw.cs" />
+    <Compile Include="Buffs\Champions\Katarina\KatarinaR\KatarinaRTriggerSound.cs" />
+    <Compile Include="Buffs\Champions\Katarina\KatarinaW\KatarinaWHaste.cs" />
+    <Compile Include="Buffs\Champions\Lulu\LuluR\LuluR.cs" />
+    <Compile Include="Buffs\Champions\Lulu\LuluW\LuluWBuff.cs" />
+    <Compile Include="Buffs\Champions\Lulu\LuluW\LuluWDebuff.cs" />
+    <Compile Include="Buffs\Champions\MasterYi\MasterYiHighlander\Highlander.cs" />
+    <Compile Include="Buffs\Champions\MasterYi\Meditate\MeditateBuff.cs" />
+    <Compile Include="Buffs\Champions\Nunu\BloodBoil\BloodBoil.cs" />
+    <Compile Include="Buffs\Champions\Nunu\IceBlast\NunuESlow.cs" />
+    <Compile Include="Buffs\Champions\Shaco\HallucinateFull\HallucinateGuide.cs" />
+    <Compile Include="Buffs\Champions\Taric\Gemcraft\Gemcraft.cs" />
+    <Compile Include="Buffs\Champions\Taric\Radiance\Radiance-ally.cs" />
+    <Compile Include="Buffs\Champions\Taric\Radiance\Radiance.cs" />
+    <Compile Include="Buffs\Champions\Taric\Shatter\ShatterAura.cs" />
+    <Compile Include="Buffs\Champions\Taric\Shatter\WArmor.cs" />
+    <Compile Include="Buffs\Champions\Taric\Shatter\WDisarmor.cs" />
+    <Compile Include="Buffs\Champions\Taric\TaricEhud.cs" />
+    <Compile Include="Buffs\Champions\Taric\TaricW\TaricWDis.cs" />
+    <Compile Include="Buffs\Champions\Tristana\DetonatingShot\TrisEAct.cs" />
+    <Compile Include="Buffs\Champions\Tristana\RapidFire\RapidFire.cs" />
+    <Compile Include="Buffs\Champions\Tristana\RocketJump\TrisWSlow.cs" />
+    <Compile Include="Buffs\Champions\Tristana\TrisP\TrisP.cs" />
+    <Compile Include="Buffs\Champions\Vayne\VayneInquisition\FinalHourBuff.cs" />
+    <Compile Include="Buffs\Globals\Buffs\Invulnerable.cs" />
+    <Compile Include="Buffs\Globals\Debuffs\Blind.cs" />
+    <Compile Include="Buffs\Globals\Debuffs\Disarm.cs" />
+    <Compile Include="Buffs\Globals\Debuffs\GrievousWounds.cs" />
+    <Compile Include="Buffs\Globals\Debuffs\Silence.cs" />
+    <Compile Include="Buffs\Globals\Debuffs\Stun.cs" />
+    <Compile Include="Buffs\Globals\Recall.cs" />
+    <Compile Include="Buffs\Globals\Summoners\SummonerExhaust\SummonerExhaustDebuff.cs" />
+    <Compile Include="Buffs\Globals\Summoners\SummonerHaste\SummonerHasteBuff.cs" />
+    <Compile Include="Buffs\Globals\Summoners\SummonerHeal\HealCheck.cs" />
+    <Compile Include="Buffs\Globals\Summoners\SummonerHeal\HealSpeed.cs" />
+    <Compile Include="Buffs\Globals\Summoners\SummonerRevive\SummonerReviveSpeedBoost.cs" />
+    <Compile Include="Buffs\Items\LightningRod\LightningRod.cs" />
+    <Compile Include="Buffs\Items\Recall\Recall.cs" />
+    <Compile Include="Buffs\Items\YoumuusGhostblade\YoumuusGhostblade.cs" />
     <Compile Include="Champions\Akali\E.cs" />
     <Compile Include="Champions\Akali\Passive.cs" />
     <Compile Include="Champions\Akali\Q.cs" />
@@ -107,6 +137,10 @@
     <Compile Include="Champions\Nidalee\Q.cs" />
     <Compile Include="Champions\Olaf\Q.cs" />
     <Compile Include="Champions\Shaco\W.cs" />
+    <Compile Include="Champions\Taric\E.cs" />
+    <Compile Include="Champions\Taric\Q.cs" />
+    <Compile Include="Champions\Taric\R.cs" />
+    <Compile Include="Champions\Taric\W.cs" />
     <Compile Include="Champions\Teemo\Q.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -122,6 +156,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Buffs\Champions\Akali\" />
+    <Folder Include="Buffs\Champions\Riven\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
